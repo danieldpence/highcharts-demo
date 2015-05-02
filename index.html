@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+	<title>Executive Dashboard | Highcharts</title>
+	<!-- scripts for highcharts -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="http://code.highcharts.com/highcharts.js"></script>
+	<script src="http://code.highcharts.com/highcharts-more.js"></script>
+	<script type="text/javascript" src="http://code.highcharts.com/modules/data.js"></script>
+	<script src="http://code.highcharts.com/modules/exporting.js"></script>
+	 <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="intro col-md-10 col-md-offset-1">
+				<h1>Tinkering With Hightcharts</h1>
+				<p>I wanted to get some experience using a javascript charting library, and after experimenting with a few other libraries, I came across <a href="http://www.highcharts.com" alt="Highcharts">Highcharts</a>. This library is fairly straightforward in application, but highly customizable, as well. Here are a few examples of what can quickly, and easily be accomplished with the library.</p>
+				<p>I love the fact that the charts are interactive. This is especially useful when viewing time-series data over a significant period of time. Highcharts allows the user to highlight a section of the timeline to zoom in, and then the chart reacts. Pretty cool!</p>
+				<p>I <em>also</em> love the fact that Highcharts provides an easy way to print these charts. By clicking the hamburger menu icon, a user can print or save the chart down in a variety of formats. This is a super useful feature when it comes to sharing these charts in a business setting.</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<!-- chart 3 -->
+			<div id="chart-3" class="chart col-md-6"></div>
+			<!-- chart 4 -->
+		<div id="chart-4" class="chart col-md-6"></div>
+		</div>
+
+		<div class="row">
+			<!-- chart 1 -->
+			<div id="chart-1" class="chart col-md-12"></div>
+
+			<!-- chart 2 -->
+			<div id="chart-2" class="chart col-md-12"></div>
+		</div>
+		
+	</div>
+	<script type="text/javascript" src="js/highchart-script.js"></script>
+</body>
+</html>
